@@ -8,31 +8,33 @@ class ScooterApp {
     this.registeredUsers = registeredUsers;
 
   }
-registerUser(){
+registerUser(username, password, age){
 
 }
-loginUser(){
-
-}
-
-logoutUser(){
+loginUser(username, password){
 
 }
 
-createScooter(){
+logoutUser(username){
 
 }
 
-dockScooter(){
+createScooter(station){
 
 }
 
-rentScooter(){
+dockScooter(scooter, station){
 
+}
+
+rentScooter(scooter, user){
+ 
 }
 
 print(){
-  
+  console.log(stations, stations.length);
+  console.log(registeredUsers);
+
 }
 
 }
