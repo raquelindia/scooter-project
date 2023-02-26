@@ -21,12 +21,12 @@ registerUser(username, password, age){
 if (age < 18){
   throw new Error('too young to register')
 } 
-if (count === 0 && age >= 18){
+if (count === 0 && age >= 18)
   console.log('user has been registered')
 }
 
 }
- }
+ 
 loginUser(username, password){
 
 }
